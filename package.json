@@ -1,0 +1,32 @@
+{
+  "name": "@hms-dbmi/viv",
+  "version": "0.13.6",
+  "author": "Ilan Gold",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develrocket/my-viv.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/develrocket/my-viv#readme",
+  "type": "module",
+  "main": "dist/index.mjs",
+  "publishConfig": {
+    "sideEffects": false
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@vivjs/extensions": "0.13.6",
+    "@vivjs/loaders": "0.13.6",
+    "@vivjs/layers": "0.13.6",
+    "@vivjs/constants": "0.13.6",
+    "@vivjs/types": "0.13.6",
+    "@vivjs/viewers": "0.13.6",
+    "@vivjs/views": "0.13.6"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.js dist/index.mjs && cp src/index.js dist/index.d.ts"
+  },
+  "types": "dist/index.d.ts"
+}
