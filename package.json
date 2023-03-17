@@ -17,13 +17,13 @@
     "dist"
   ],
   "dependencies": {
-    "@vivjs/extensions": "git+https://github.com/develrocket/hdms-viv-extensions.git",
-    "@vivjs/loaders": "git+https://github.com/develrocket/hdms-viv-loaders.git",
-    "@vivjs/layers": "git+https://github.com/develrocket/hdms-viv-layers.git",
-    "@vivjs/constants": "git+https://github.com/develrocket/hdms-viv-constants.git",
-    "@vivjs/types": "git+https://github.com/develrocket/hdms-viv-types.git",
-    "@vivjs/viewers": "git+https://github.com/develrocket/hdms-viv-viewers.git",
-    "@vivjs/views": "git+https://github.com/develrocket/hdms-viv-views.git"
+    "@vivjs/extensions": "git+https://github.com/develrocket/hdms-viv-extensions.git#0.13.6",
+    "@vivjs/loaders": "git+https://github.com/develrocket/hdms-viv-loaders.git#0.13.6",
+    "@vivjs/layers": "git+https://github.com/develrocket/hdms-viv-layers.git#0.13.6",
+    "@vivjs/constants": "git+https://github.com/develrocket/hdms-viv-constants.git#0.13.6",
+    "@vivjs/types": "git+https://github.com/develrocket/hdms-viv-types.git#0.13.6",
+    "@vivjs/viewers": "git+https://github.com/develrocket/hdms-viv-viewers.git#0.13.6",
+    "@vivjs/views": "git+https://github.com/develrocket/hdms-viv-views.git#0.13.6"
   },
   "scripts": {
     "build": "mkdir -p dist && cp src/index.js dist/index.mjs && cp src/index.js dist/index.d.ts"
